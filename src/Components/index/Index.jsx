@@ -1,4 +1,5 @@
 import About from "./About/About";
+import BookingSteps from "./BookingSteps/BookingSteps";
 import Hero from "./Hero/Hero";
 
 const Index = () => {
@@ -6,6 +7,7 @@ const Index = () => {
     <>
       <Hero />
       <About />
+      <BookingSteps />
     </>
   );
 };

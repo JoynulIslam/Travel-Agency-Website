@@ -532,3 +532,15 @@ img {
 .discover-btn::after {
   background-color: var(--color-prim);
 }
+
+/* Tour Guide Section  */
+
+.rotate {
+  animation: rotate 200s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

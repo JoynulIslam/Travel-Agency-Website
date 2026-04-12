@@ -8,6 +8,7 @@ import Testimonials from "./Testimonials/Testimonials";
 import TopDestination from "./TopDestination/TopDestination";
 import TourCategories from "./TourCategories/TourCategories";
 import TourGuide from "./TourGuide/TourGuide";
+import Tours from "./Tours/Tours";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <Testimonials />
       <Banner />
       <Counter />
+      <Tours />
     </>
   );
 };

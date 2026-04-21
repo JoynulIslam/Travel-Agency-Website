@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Top 3 Adventure Destinations for Four Next Holiday",
+    "author": "By Ronin Cloun",
+    "image": "src/assets/Index/Blogs/blog-img01.jpg",
+    "date": "13"
+  },
+  {
+    "id": 2,
+    "title": "Best Beaches to Visit This Summer",
+    "author": "By Alex Morgan",
+    "image": "src/assets/Index/Blogs/blog-img02.jpg",
+    "date": "7"
+  },
+  {
+    "id": 3,
+    "title": "Explore the Hidden Mountains",
+    "author": "By Sarah Lee",
+    "image": "src/assets/Index/Blogs/blog-img03.jpg",
+    "date": "5"
+  },
+  {
+    "id": 4,
+    "title": "City Lights: Top Urban Destinations",
+    "author": "By John Carter",
+    "image": "src/assets/Index/Blogs/blog-img04.jpg",
+    "date": "9"
+  },
+  {
+    "id": 5,
+    "title": "A Guide to Desert Adventures",
+    "author": "By Emma Watson",
+    "image": "src/assets/Index/Blogs/blog-img05.jpg",
+    "date": "3"
+  },
+  {
+    "id": 6,
+    "title": "Discover the Beauty of Nature Parks",
+    "author": "By Liam Brown",
+    "image": "src/assets/Index/Blogs/blog-img06.jpg",
+    "date": "11"
+  },
+  {
+    "id": 7,
+    "title": "Top Winter Destinations You Must Visit",
+    "author": "By Olivia Smith",
+    "image": "src/assets/Index/Blogs/blog-img07.jpg",
+    "date": "2"
+  },
+  {
+    "id": 8,
+    "title": "Island Hopping: A Complete Travel Guide",
+    "author": "By Noah Wilson",
+    "image": "src/assets/Index/Blogs/blog-img08.jpg",
+    "date": "6"
+  },
+  {
+    "id": 9,
+    "title": "Cultural Trips Around the World",
+    "author": "By Ava Johnson",
+    "image": "src/assets/Index/Blogs/blog-img09.jpg",
+    "date": "10"
+  }
+]

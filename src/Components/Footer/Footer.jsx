@@ -1,0 +1,488 @@
+import pic1 from "../../assets/Index/Footerimage/pic1 (2).jpg";
+import pic2 from "../../assets/Index/Footerimage/pic2 (2).jpg";
+import pic3 from "../../assets/Index/Footerimage/pic3 (2).jpg";
+import pic4 from "../../assets/Index/Footerimage/pic4 (1).jpg";
+import pic5 from "../../assets/Index/Footerimage/pic5.jpg";
+import pic6 from "../../assets/Index/Footerimage/pic6.jpg";
+import pic7 from "../../assets/Index/Footerimage/pic7.jpg";
+import pic8 from "../../assets/Index/Footerimage/pic8.jpg";
+import pic9 from "../../assets/Index/Footerimage/pic9.jpg";
+import car from "../../assets/Index/Footerimage/Left-Car.png";
+import tyre from "../../assets/Index/Footerimage/Left-Car-tyre.png";
+import tree from "../../assets/Index/Footerimage/Righttreepic.png";
+import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
+import Logo from "../Navbar/Logo/Logo";
+
+const Footer = () => {
+  return (
+    <>
+      <div className="bg-yellow-light w-full py-[6%] md:py-[10%] relative text-center overflow-hidden">
+        <div className="px-[2%] sm:px-[8%] lg:px-[10%] mb-10">
+          <h4 className="pb-8 text-2xl md:text-4xl text-secondary font-medium">
+            Follow Instagram
+          </h4>
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-9 gap-4 sm:gap-5 max-w-full mx-auto">
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic1}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic2}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic3}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic4}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic5}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic6}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic7}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic8}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="w-full h-full gallery-item">
+              <Link
+                to="https://www.instagram.com/"
+                className="relative block w-full overflow-hidden rounded-xl group"
+              >
+                <img
+                  src={pic9}
+                  alt="gallery"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+
+                <div className="absolute inset-0 bg-secondary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="w-22.5 h-22.5 rounded-full bg-white flex items-center justify-center scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <Icon icon="lets-icons:insta" width="28" height="28" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="md:absolute left-0 bottom-0 z-1 w-full border-b-4 border-secondary">
+          <div className="marq-car z-1">
+            <img src={car} alt="car-image" />
+
+            <span className="tyre-1">
+              <img src={tyre} alt="tyre1-image" className="spin-tyres" />
+            </span>
+
+            <span className="tyre-2">
+              <img src={tyre} alt="tyre2-image" className="spin-tyres" />
+            </span>
+          </div>
+          <div className="right-tree md:block hidden">
+            <img src={tree} alt="tree-img" />
+          </div>
+        </div>
+      </div>
+
+      <div className="footer-menu flex flex-col justify-between xl:flex-row gap-10 xl:gap-16 px-5 sm:px-[8%] lg:px-[10%] bg-yellow-light py-[6%]">
+        <div className="footer-item text-start xl:max-w-70">
+          <Logo className="text-black!" />
+          <p className="pt-5 text-gray-500/60">
+            Travlla is a multi-award-winning strategy and content creation
+            agency that specializes in travel marketing.
+          </p>
+
+          <ul className="pt-6 flex flex-wrap items-center">
+            <li className="social-icon inline-flex h-11.5 w-11.5 bg-yellow me-2.5 rounded-[50%] overflow-hidden justify-center items-center transition-all duration-500 ease-in-out group hover:rounded-[10px] hover:shadow-lg">
+              <Link
+                to=""
+                className="w-9 h-9 flex justify-center items-center bg-secondary text-white text-[18px] rounded-[50%] transition-all duration-500 ease-in-out group-hover:text-yellow group-hover:rounded-[10px]"
+              >
+                <Icon icon="codicon:twitter" width="16" height="16" />
+              </Link>
+            </li>
+            <li className="social-icon inline-flex h-11.5 w-11.5 bg-yellow me-2.5 rounded-[50%] overflow-hidden justify-center items-center transition-all duration-500 ease-in-out group hover:rounded-[10px] hover:shadow-lg">
+              <Link
+                to=""
+                className="w-9 h-9 flex justify-center items-center bg-secondary text-white text-[18px] rounded-[50%] transition-all duration-500 ease-in-out group-hover:text-yellow group-hover:rounded-[10px]"
+              >
+                <Icon icon="ic:outline-facebook" width="24" height="24" />
+              </Link>
+            </li>
+            <li className="social-icon inline-flex h-11.5 w-11.5 bg-yellow me-2.5 rounded-[50%] overflow-hidden justify-center items-center transition-all duration-500 ease-in-out group hover:rounded-[10px] hover:shadow-lg">
+              <Link
+                to=""
+                className="w-9 h-9 flex justify-center items-center bg-secondary text-white text-[18px] rounded-[50%] transition-all duration-500 ease-in-out group-hover:text-yellow group-hover:rounded-[10px]"
+              >
+                <Icon icon="mingcute-instagram-line" width="24" height="24" />
+              </Link>
+            </li>
+            <li className="social-icon inline-flex h-11.5 w-11.5 bg-yellow me-2.5 rounded-[50%] overflow-hidden justify-center items-center transition-all duration-500 ease-in-out group hover:rounded-[10px] hover:shadow-lg">
+              <Link
+                to=""
+                className="w-9 h-9 flex justify-center items-center bg-secondary text-white text-[18px] rounded-[50%] transition-all duration-500 ease-in-out group-hover:text-yellow group-hover:rounded-[10px]"
+              >
+                <Icon icon="line-md:youtube" width="24" height="24" />
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-24 w-full xl:w-auto">
+          <div className="footer-item">
+            <h4 className="text-2xl sm:text-3xl text-secondary mb-5">
+              Explore
+            </h4>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  to="/about"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/faq"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  FAQ's
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/team"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/news"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  News & Articles
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="footer-item">
+            <h4 className="text-2xl sm:text-3xl text-secondary mb-5">
+              Destinations
+            </h4>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Tokyo
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  France
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Dubai
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Kenya
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Vietnam
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="footer-item">
+            <h4 className="text-2xl sm:text-3xl text-secondary mb-5">Legal</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Terms & Condition
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="nav-link inline-block text-secondary hover:text-yellow hover:-translate-y-1 transition-all duration-300 font-medium"
+                >
+                  Help
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="footer-item">
+          <ul className="space-y-5">
+            <li className="flex items-center">
+              <Icon
+                icon="famicons:call-outline"
+                className="bg-secondary/20 text-secondary w-12 h-12 p-2 rounded-full me-2"
+              />
+              <Link
+                to="#"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl "
+              >
+                +91 023 215 126
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Icon
+                icon="clarity:email-line"
+                className="bg-secondary/20 text-secondary w-12 h-12 p-2 rounded-full me-2"
+              />
+              <Link
+                to="#"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl "
+              >
+                travelorinfo@gmail.com
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Icon
+                icon="material-symbols-light:home-outline"
+                className="bg-secondary/20 text-secondary w-12 h-12 p-2 rounded-full me-2"
+              />
+              <Link
+                to="#"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl "
+              >
+                29/A Vatara Dhaka
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="subscribe-banner px-[2%] sm:px-[8%] lg:px-[10%] bg-yellow-light">
+        <div className="bg-secondary px-5 lg:px-10 py-8 flex justify-between items-center xl:flex-row flex-col rounded-xl xl:gap-0 gap-10">
+          <div className="subcribe-content text-white xl:text-start text-center">
+            <h4 className="text-3xl sm:text-4xl lg:text-6xl font-medium">
+              Subscribe <span className="text-yellow">Now!</span>{" "}
+            </h4>
+            <p className="sm:text-lg xl:text-xl">
+              Sign up to searing weekly newsletter to get the latest updates.
+            </p>
+          </div>
+          <form className="w-full xl:w-auto xl:min-w-lg">
+            <div className="flex relative border bg-[#DBEEEE] rounded-full p-1.5 xl:max-w-120 w-full h-20">
+              <input
+                type="email"
+                placeholder="Email Address"
+                aria-label="Email Address"
+                required
+                className="flex-1 h-17 border-0 pt-2.5 sm:pe-20 pb-2.5 ps-3 sm:ps-5 rounded-full bg-white outline-none! "
+              />
+              <button
+                type="submit"
+                aria-label="Search"
+                className="bg-secondary text-white border-0 rounded-full w-15 h-15 absolute top-2.5 right-3 flex justify-center items-center transition-all duration-300 hover:bg-opacity-90 active:scale-95"
+              >
+                <Icon icon="iconoir:search" width="35" height="35" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <p className="bg-yellow-light pt-5 pb-4 text-center font-medium">
+        @ 2026{" "}
+        <Link to="#" className="text-yellow">
+          Travelor
+        </Link>{" "}
+        All Rights Reserved.{" "}
+      </p>
+    </>
+  );
+};
+
+export default Footer;

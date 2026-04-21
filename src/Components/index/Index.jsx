@@ -1,5 +1,6 @@
 import About from "./About/About";
 import Banner from "./Banner/Banner";
+import Blogs from "./Blogs/Blogs";
 import BookingSteps from "./BookingSteps/BookingSteps";
 import Counter from "./Counter/Counter";
 import Hero from "./Hero/Hero";
@@ -23,6 +24,7 @@ const Index = () => {
       <Banner />
       <Counter />
       <Tours />
+      <Blogs />
     </>
   );
 };

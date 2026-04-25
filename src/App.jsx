@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Index from "./Components/index/Index";
 import Footer from "./Components/Footer/Footer";
 import { About } from "./Pages/About/About";
+import Services from "./Pages/Services/Services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
         <Footer />
       </BrowserRouter>

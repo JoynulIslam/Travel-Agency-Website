@@ -55,7 +55,10 @@ export const About = () => {
             </li>
             <span className="text-secondary">/</span>
             <li>
-              <Link className="cursor-pointer text-sm lg:text-lg font-medium text-secondary">
+              <Link
+                to="/about"
+                className="cursor-pointer text-sm lg:text-lg font-medium text-secondary"
+              >
                 About Us
               </Link>
             </li>
@@ -230,7 +233,7 @@ export const About = () => {
 
         <div className="bg-[#daeeef] p-5 md:p-10 rounded-2xl my-10 md:my-14">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-            {services.map((srv, idx) => {
+            {services.map((srv) => {
               return (
                 <>
                   <Link
